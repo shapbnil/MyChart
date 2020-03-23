@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4806994359,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PatientPortalPage.CallDriver()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login with valid username and passowrd",
+        "description": "",
+        "id": "myaccount-login-feature;login-with-valid-username-and-passowrd",
+        "after": [
+          {
+            "result": {
+              "duration": 2040987291,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PatientPortalPage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7689298351,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open browser",
+            "match": {
+              "location": "PatientPortalPage.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 426798233,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter username",
+            "match": {
+              "location": "PatientPortalPage.user_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142127045,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter password",
+            "match": {
+              "location": "PatientPortalPage.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23253638,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on SignIn Button",
+            "match": {
+              "location": "PatientPortalPage.click_on_SignIn_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MyAccount Login Feature",
+    "description": "\r\nDescription: This feature will test a login functionality",
+    "id": "myaccount-login-feature",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
